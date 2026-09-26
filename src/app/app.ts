@@ -1,12 +1,20 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
+import { MainMenuComponent } from './main-menu/main-menu';
+import { StartGameComponent } from './start-game/start-game';
+import { CreditsComponent } from './credits/credits';
+import { MatchUpGameComponent } from './match-up-game/match-up-game';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [MainMenuComponent, StartGameComponent, CreditsComponent, MatchUpGameComponent],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App {
-  protected readonly title = signal('matchup-game-lgpd');
+  currentScreen = signal<'home' | 'start' | 'credits' | 'game' | 'logout'>('home');
+
+  navigateTo(screen: 'home' | 'start' | 'credits' | 'game' | 'logout'): void {
+    this.currentScreen.set(screen);
+  }
 }
