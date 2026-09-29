@@ -37,7 +37,7 @@ export class MatchUpGameComponent implements OnInit {
     { id: '10', left: 'Eliminação de Dados', right: 'O direito do titular de solicitar a exclusão de seus dados do sistema da empresa.' },
     { id: '11', left: 'Consentimento', right: 'Autorização manifesta, livre, informada e inequívoca do titular para o uso dos seus dados.' },
     { id: '12', left: 'Qual o objetivo da LGPD?', right: 'proteger os dados pessoais e a privacidade das pessoas' },
-    { id: '13', left: 'Quais osbenefícios da LGPD', right: 'maior segurança, transparência e controle sobre o uso de dados.' },
+    { id: '13', left: 'Quais os benefícios da LGPD', right: 'maior segurança, transparência e controle sobre o uso de dados.' },
     { id: '14', left: 'Quais as punições para quem não aplica?', right: 'podem incluir advertência, multa de até 2% do faturamento, bloqueio ou eliminação dos dados pessoais, entre outras sanções.' }
   ];
 
