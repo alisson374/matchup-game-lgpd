@@ -36,10 +36,9 @@ export class MatchUpGameComponent implements OnInit {
     { id: '9', left: 'ANPD', right: 'Órgão do governo responsável por zelar, implementar e fiscalizar o cumprimento da lei no Brasil.' },
     { id: '10', left: 'Eliminação de Dados', right: 'O direito do titular de solicitar a exclusão de seus dados do sistema da empresa.' },
     { id: '11', left: 'Consentimento', right: 'Autorização manifesta, livre, informada e inequívoca do titular para o uso dos seus dados.' },
-    { id: '12', left: 'O que é a LGPD?', right: 'é a lei brasileira que estabelece regras para o uso e a proteção de dados pessoais.' },
-    { id: '13', left: 'Qual o objetivo da LGPD?', right: 'proteger os dados pessoais e a privacidade das pessoas' },
-    { id: '14', left: 'Quais osbenefícios da LGPD', right: 'maior segurança, transparência e controle sobre o uso de dados.' },
-    { id: '15', left: 'Quais as punições para quem não aplica?', right: 'podem incluir advertência, multa de até 2% do faturamento, bloqueio ou eliminação dos dados pessoais, entre outras sanções.' }
+    { id: '12', left: 'Qual o objetivo da LGPD?', right: 'proteger os dados pessoais e a privacidade das pessoas' },
+    { id: '13', left: 'Quais osbenefícios da LGPD', right: 'maior segurança, transparência e controle sobre o uso de dados.' },
+    { id: '14', left: 'Quais as punições para quem não aplica?', right: 'podem incluir advertência, multa de até 2% do faturamento, bloqueio ou eliminação dos dados pessoais, entre outras sanções.' }
   ];
 
   ngOnInit(): void {
