@@ -1,8 +1,13 @@
 .credits-scroll {
-    animation: scrollCredits 15s linear infinite;
-    top: 100%;
-  }
-  @keyframes scrollCredits {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-350px); }
-  }
+  animation: scrollCredits 15s linear infinite;
+  top: 100%;
+}
+
+@keyframes scrollCredits {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-600px); }
+}
+
+section {
+  width: 600px !important;
+}
